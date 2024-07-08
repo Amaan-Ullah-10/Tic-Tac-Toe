@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #3ee3e9;
+    color: white;
+    border-radius: 1rem;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Bona Nova SC", serif;
+}
+nav ul{
+    list-style-type: none;
+}
+.gamecontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+    font-family: "Bona Nova SC", serif;
+}
+.box{
+    border: 2px solid black;
+    font-size: 7vw;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Baloo Bhaina 2", sans-serif;
+}
+.box:hover{
+    background-color: rgb(232, 212, 252);
+}
+.imgbox img{
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+#reset{
+    padding: 3vh;
+    border-radius: 2vh;
+    background-color: rgb(192, 173, 255);
+    margin:  2vh 4vh;
+    font-family:"Bona Nova SC", serif; 
+    font-weight: 600;
+    font-size: 3vh;
+}
+.info{
+    font-family:"Bona Nova SC", serif;
+    color: rgb(44, 4, 45);
+    margin-left: 5vh;
+    font-size: 3vh;
+}
+h1{
+    margin-left: 4vh;
+    color: rgb(137, 99, 249);
+}
